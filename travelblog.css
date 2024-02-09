@@ -1,0 +1,35 @@
+*{
+    margin-top: 0px;
+    padding: 0px;
+}
+.nav-side{
+    margin-left: 0px;
+}
+.card-conatiner{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.card-heading{
+    margin-top: 45px;
+    text-align: center;
+}
+.data{
+    margin: 20px 15px;
+}
+
+@media (min-width: 1028px){
+    .nav-side{
+        margin-left: 1000px;
+    }
+}
+@media (max-width: 768px){
+    .card-container{
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 1024px){
+    .card-container{
+        margin-left: 50px;
+    }
+}
